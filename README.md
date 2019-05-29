@@ -14,5 +14,4 @@ Example usage
 	  -region Yunion \
 	  -lb-network vnet.2
 
-swagger.yaml moved to [onecloud repo](ihttps://github.com/yunionio/onecloud/blob/master/docs/swagger.yaml).
-It will be maintained there
+swagger.yaml is now maintained in [onecloud repo](https://github.com/yunionio/onecloud/blob/master/docs/swagger.yaml).
