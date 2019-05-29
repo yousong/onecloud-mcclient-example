@@ -5,7 +5,7 @@ Build
 
 Example usage
 
-	./onecloud-cli-example \
+	./onecloud-mcclient-example \
 	  -user sysadmin \
 	  -pass xxxxxxxxxxxx \
 	  -project system \
