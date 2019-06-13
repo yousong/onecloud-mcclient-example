@@ -71,7 +71,7 @@ func lblisDelete(s *mcclient.ClientSession, lblis *models.LoadbalancerListener) 
 func lbbgCreate(s *mcclient.ClientSession, lb *models.Loadbalancer) *models.LoadbalancerBackendGroup {
 	lbbgCreateOpt := &options.LoadbalancerBackendGroupCreateOptions{
 		NAME:         "lb0bg0",
-		LOADBALANCER: lb.Id, // use Loadbalancer
+		Loadbalancer: lb.Id,
 	}
 	params, _ := options.StructToParams(lbbgCreateOpt)
 	json, err := modules.LoadbalancerBackendGroups.Create(s, params)

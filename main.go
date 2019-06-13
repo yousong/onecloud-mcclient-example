@@ -18,11 +18,12 @@ var (
 	optCert     string
 	optKey      string
 
-	optAuthURL string
-	optUser    string
-	optPass    string
-	optDomain  string
-	optProject string
+	optAuthURL       string
+	optUser          string
+	optPass          string
+	optDomain        string
+	optProject       string
+	optProjectDomain string
 
 	optRegion       string
 	optZone         string
@@ -47,6 +48,7 @@ func init() {
 	flag.StringVar(&optPass, "pass", "", "keystone auth password")
 	flag.StringVar(&optDomain, "domain", "", "keystone auth domain")
 	flag.StringVar(&optProject, "project", "", "keystone auth project")
+	flag.StringVar(&optProjectDomain, "project-domain", "", "keystone auth project domain")
 
 	flag.StringVar(&optRegion, "region", "", "keystone region")
 	flag.StringVar(&optZone, "zone", "", "keystone zone")
@@ -71,6 +73,7 @@ func main() {
 		optPass,
 		optDomain,
 		optProject,
+		optProjectDomain,
 	)
 	if err != nil {
 		glog.Fatal(err)

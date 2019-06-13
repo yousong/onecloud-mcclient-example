@@ -4,6 +4,7 @@ go 1.12
 
 require (
 	github.com/fatih/color v1.7.0 // indirect
+	github.com/gin-gonic/gin v1.4.0 // indirect
 	github.com/golang-plus/errors v1.0.0 // indirect
 	github.com/golang-plus/testing v1.0.0 // indirect
 	github.com/golang-plus/uuid v1.0.0 // indirect
@@ -18,6 +19,8 @@ require (
 	golang.org/x/crypto v0.0.0-20190513172903-22d7a77e9e5f // indirect
 	yunion.io/x/jsonutils v0.0.0-20190524011917-5ced58e220e1
 	yunion.io/x/log v0.0.0-20190514041436-04ce53b17c6b // indirect
-	yunion.io/x/onecloud v0.0.0-20190525123719-ae49f3cff9e5
+	yunion.io/x/onecloud v0.0.0-20190613135451-e2198b564116
 	yunion.io/x/pkg v0.0.0-20190523091118-43fa4e20e966 // indirect
 )
+
+replace yunion.io/x/pkg => github.com/yousong/pkg v0.0.0-20190613153937-ea06099dce16
