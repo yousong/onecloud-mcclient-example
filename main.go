@@ -3,6 +3,8 @@ package main
 import (
 	"context"
 	"flag"
+	"fmt"
+	"os"
 
 	"github.com/golang/glog"
 
@@ -34,6 +36,12 @@ var (
 
 func registerRunner(name string, runner Runner) {
 	runners[name] = runner
+}
+
+func pressAnyKey() {
+	// if it's not tty
+	fmt.Fprint(os.Stderr, "press any key to continue...")
+	fmt.Scanf("a")
 }
 
 func init() {

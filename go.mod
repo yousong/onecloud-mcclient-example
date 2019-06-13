@@ -20,7 +20,7 @@ require (
 	yunion.io/x/jsonutils v0.0.0-20190524011917-5ced58e220e1
 	yunion.io/x/log v0.0.0-20190514041436-04ce53b17c6b // indirect
 	yunion.io/x/onecloud v0.0.0-20190613135451-e2198b564116
-	yunion.io/x/pkg v0.0.0-20190523091118-43fa4e20e966 // indirect
+	yunion.io/x/pkg v0.0.0-20190523091118-43fa4e20e966
 )
 
 replace yunion.io/x/pkg => github.com/yousong/pkg v0.0.0-20190613153937-ea06099dce16
