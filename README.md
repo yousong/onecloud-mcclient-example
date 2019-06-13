@@ -12,4 +12,5 @@ Example usage
 	  -domain Default \
 	  -auth-url http://11.111.222.222:5000/v3 \
 	  -region Yunion \
+	  -lb \
 	  -lb-network vnet.2
