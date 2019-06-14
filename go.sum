@@ -54,6 +54,10 @@ github.com/tredoe/osutil v0.0.0-20161130133508-7d3ee1afa71c h1:5q7IHeqvAA4hWR1Cf
 github.com/tredoe/osutil v0.0.0-20161130133508-7d3ee1afa71c/go.mod h1:M/I710pXKQToMdqt/D+mJ4QsnW6WDaajyB6DWFmDXBs=
 github.com/ugorji/go v1.1.4 h1:j4s+tAvLfL3bZyefP2SEWmhBzmuIlH/eqNuPdFPgngw=
 github.com/ugorji/go v1.1.4/go.mod h1:uQMGLiO92mf5W77hV/PUCpI3pbzQx3CRekS0kk+RGrc=
+github.com/yousong/onecloud v2.0.1-0.20190614140236-6c64139ee252+incompatible h1:a+H2Cd8txLD9pdxWG6dfoKU5QMA6VmBDpX81XWx5vSc=
+github.com/yousong/onecloud v2.0.1-0.20190614140236-6c64139ee252+incompatible/go.mod h1:d74ZpEoyfPZ+L4TS7uaasYDQn2HS0fb23F4BeBJARZI=
+github.com/yousong/onecloud v2.0.1-0.20190614141636-f438f89fc92f+incompatible h1:azkRHNgJVsZti+hKlALiAWRhygPYqArWMCOEmBSLwTE=
+github.com/yousong/onecloud v2.0.1-0.20190614141636-f438f89fc92f+incompatible/go.mod h1:d74ZpEoyfPZ+L4TS7uaasYDQn2HS0fb23F4BeBJARZI=
 github.com/yousong/pkg v0.0.0-20190613153937-ea06099dce16 h1:voa21UEWXkVu7imzkPzF7i1ZPEBof2yGqdJRjl+qyQk=
 github.com/yousong/pkg v0.0.0-20190613153937-ea06099dce16/go.mod h1:vnBoBQ3OlKw4V2GKmAiaP7K0jhZpPfC+FUwGGaKGtwI=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=

@@ -24,3 +24,5 @@ require (
 )
 
 replace yunion.io/x/pkg => github.com/yousong/pkg v0.0.0-20190613153937-ea06099dce16
+
+replace yunion.io/x/onecloud => github.com/yousong/onecloud v2.0.1-0.20190614141636-f438f89fc92f+incompatible
