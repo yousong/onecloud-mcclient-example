@@ -68,7 +68,7 @@ func serverDelete(s *mcclient.ClientSession, id string) {
 func serverWaitStatuses(s *mcclient.ClientSession, id string, statuses []string) {
 	var server *models.Server
 	waiter := utils.NewFibonacciRetrierMaxElapse(
-		time.Minute,
+		time.Hour,
 		func(r utils.FibonacciRetrier) (bool, error) {
 			var err error
 			server, err = serverGet(s, id)

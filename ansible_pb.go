@@ -219,7 +219,7 @@ func ansiblePbStop(s *mcclient.ClientSession, id string) (*models.AnsiblePlayboo
 func ansiblePbWaitStatuses(s *mcclient.ClientSession, id string, statuses []string) *models.AnsiblePlaybook {
 	var pb *models.AnsiblePlaybook
 	waiter := utils.NewFibonacciRetrierMaxElapse(
-		time.Minute,
+		time.Hour,
 		func(r utils.FibonacciRetrier) (bool, error) {
 			var err error
 			pb, err = ansiblePbGet(s, id)
