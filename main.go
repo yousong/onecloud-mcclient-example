@@ -86,6 +86,8 @@ func main() {
 	if err != nil {
 		glog.Fatal(err)
 	}
+	glog.Infof("token expires at %s", token.GetExpires())
+
 	s := client.NewSession(
 		context.Background(),
 		optRegion,
