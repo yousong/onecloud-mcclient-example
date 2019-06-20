@@ -19,10 +19,6 @@ require (
 	golang.org/x/crypto v0.0.0-20190513172903-22d7a77e9e5f // indirect
 	yunion.io/x/jsonutils v0.0.0-20190524011917-5ced58e220e1
 	yunion.io/x/log v0.0.0-20190514041436-04ce53b17c6b // indirect
-	yunion.io/x/onecloud v0.0.0-20190613135451-e2198b564116
-	yunion.io/x/pkg v0.0.0-20190523091118-43fa4e20e966
+	yunion.io/x/onecloud v0.0.0-20190620132550-237d245a0dda
+	yunion.io/x/pkg v0.0.0-20190620104149-945c25821dbf
 )
-
-replace yunion.io/x/pkg => github.com/yousong/pkg v0.0.0-20190613153937-ea06099dce16
-
-replace yunion.io/x/onecloud => github.com/yousong/onecloud v2.0.1-0.20190614141636-f438f89fc92f+incompatible
